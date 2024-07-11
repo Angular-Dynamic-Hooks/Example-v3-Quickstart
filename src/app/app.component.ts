@@ -13,7 +13,7 @@ import { BoxComponent } from './components/box/box.component';
 })
 export class AppComponent {
   // A list of components to look for
-  components = [ExampleComponent, ImageComponent, BoxComponent]
+  parsers = [ExampleComponent, ImageComponent, BoxComponent]
 
   // The content to parse
   content = `

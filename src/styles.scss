@@ -3,3 +3,10 @@ body {
   margin: 0px;
   height: 100vh;
 }
+
+  p:first-child {
+    margin-top: 0px;
+  }
+  p:last-child {
+    margin-bottom: 0px;
+  }

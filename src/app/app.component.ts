@@ -7,7 +7,7 @@ import { BoxComponent } from './components/box/box.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [DynamicHooksComponent, ExampleComponent, ImageComponent, BoxComponent],
+  imports: [DynamicHooksComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
@@ -21,7 +21,7 @@ export class AppComponent {
     <p>How about a component for an image:</p>
     <app-image [src]="'https://i.imgur.com/3Hvh6lx.jpg'"></app-image>
     <p>or a text-box:</p>
-    <app-box [backgroundColor]="'#4493ff40'">
+    <app-box [backgroundColor]="'#5678a8'">
       with projected content!
     </app-box>
   `;
